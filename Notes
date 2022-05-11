@@ -1,0 +1,16 @@
+Resource:
+Is an object which terraform manages
+Could be IAM Users, Services, VMs
+
+HCL: Hashicorp Configuration Language
+Block: Contains information about infrastructure platform and
+a set of resources within that platform that you want to create
+
+
+Terraform flow consists of 4 steps:
+1. Write HCL file: local.tf
+2. init: terraform init
+3. plan: review the execution plan: terraform plan
+4. apply: changes: terraform apply
+
+terraform show: show the details of the resource we just created
